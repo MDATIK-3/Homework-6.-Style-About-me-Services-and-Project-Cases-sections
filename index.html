@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <link href="./style.css" rel="stylesheet" />
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a class="nav-link" href="#about-me">About me</a>
+            <a class="nav-link" href="#services">Services</a>
+            <a class="nav-link" href="#cases">Cases</a>
+            <a class="nav-link" href="#contact-me">Contact me</a>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-text">
+                    MD Atik, <br />
+                    <span class="text-highlight">Full-Stack Web Developer</span> & React.js Specialist
+                </h1>
+                <p class="hero-description">
+                    Building scalable software solutions, integrating complex APIs, and crafting responsive, modern user
+                    interfaces.
+                </p>
+                <div class="hero-actions">
+                    <a href="#contact-me" class="btn btn-primary">Let's Talk</a>
+                    <a href="#cases" class="btn btn-secondary">View Work</a>
+                </div>
+            </div>
+
+            <div class="hero-img-container">
+                <img src="https://scontent.fdac140-1.fna.fbcdn.net/v/t39.30808-6/670272916_1644555753359718_4711493951163952498_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFAyneScRsXi8I8lSiicTr0HIbILx4_m1schsgvHj-bW0AXPilMwnk2tG17CQvrfrWH5mEtPknroSvLRkpUThGd&_nc_ohc=vzdr70mbW64Q7kNvwG85reB&_nc_oc=Adp3EwnYZlS4zPtPHbvwy630ZL09eZxhzOIt72Vj8p6ocaqHrJToWk4hvQaH42UZwQE&_nc_zt=23&_nc_ht=scontent.fdac140-1.fna&_nc_gid=asoo29B2kIaSpwjpP7M2kQ&_nc_ss=7b2a8&oh=00_Af_uqSXPKX2ld6OdIueIxuXPTPaH4_R7_J3qDOXdXSDVgA&oe=6A2861E5"
+                    class="hero-img" alt="MD Atik Portrait" />
+            </div>
+        </section>
+
+
+        <section id="about-me" class="section-container about-section">
+            <h2 class="section-title">About <span>Me</span></h2>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am MD Atik, a Full-Stack Web Developer from Narayanganj,
+                        Bangladesh. I completed my B.Sc. in Computer Science and
+                        Engineering from Green University of Bangladesh with a CGPA
+                        of 3.65/4.00.
+                    </p>
+                    <p>
+                        My primary expertise includes <strong>React.js, Next.js, TypeScript,
+                            Node.js, Express.js, MongoDB, and MySQL</strong>. I have solved more
+                        than 1000 programming problems and contributed to 75+ GitHub
+                        repositories while building modern web applications.
+                    </p>
+                    <p>
+                        I enjoy developing scalable software solutions, contributing
+                        to open-source projects, and continuously improving my skills
+                        in web technologies.
+                    </p>
+                </div>
+
+                <div class="about-img-wrapper">
+                    <img src="./images/Md_Atik_Photo.png" alt="MD Atik" class="about-img" />
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section-container services-section">
+            <h2 class="section-title">My <span>Services</span></h2>
+
+            <div class="grid-container">
+                <article class="card service-card">
+                    <div class="card-icon">💻</div>
+                    <h3>Frontend Development</h3>
+                    <p>
+                        Building responsive and modern user interfaces using
+                        React.js, Next.js, TypeScript, Tailwind CSS, and
+                        Framer Motion.
+                    </p>
+                </article>
+
+                <article class="card service-card">
+                    <div class="card-icon">⚙️</div>
+                    <h3>Full-Stack Web Applications</h3>
+                    <p>
+                        Developing complete web solutions using Node.js,
+                        Express.js, MongoDB, MySQL, authentication systems,
+                        and RESTful APIs.
+                    </p>
+                </article>
+
+                <article class="card service-card">
+                    <div class="card-icon">🚀</div>
+                    <h3>API Integration & Optimization</h3>
+                    <p>
+                        Integrating third-party APIs, improving performance,
+                        optimizing database queries, and deploying production
+                        applications.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section id="cases" class="section-container cases-section">
+            <h2 class="section-title">Project <span>Cases</span></h2>
+
+            <div class="grid-container">
+                <a href="https://ieeegub.vercel.app/" class="card case-card">
+                    <span class="case-badge">Web Platform</span>
+                    <h3>IEEE GUB Student Branch Website</h3>
+                    <p>
+                        Developed a responsive platform using Next.js,
+                        Tailwind CSS, Framer Motion, Three.js, and Fuse.js.
+                        Achieved a 94% PageSpeed score and integrated GitHub APIs.
+                    </p>
+                </a>
+
+                <a href="https://cipheralgo.vercel.app/" class="card case-card">
+                    <span class="case-badge">Education</span>
+                    <h3>Cryptography Learning Platform</h3>
+                    <p>
+                        Built an educational platform featuring Playfair and
+                        RSA algorithms with dynamic visualization and
+                        interactive learning modules.
+                    </p>
+                </a>
+
+                <a href="https://github.com/MDATIK-3/" class="card case-card">
+                    <span class="case-badge">Open Source</span>
+                    <h3>Github Open Source Contributions</h3>
+                    <p>
+                        Contributed to over 75 repositories and participated
+                        in multiple community-driven development projects.
+                    </p>
+                </a>
+            </div>
+        </section>
+
+
+
+        <section id="contact-me">
+            <h2>Contact me</h2>
+
+            <div class="contact-info">
+                <p>Email: atikh4335@gmail.com</p>
+                <p>Phone: +8801840069805</p>
+                <p>Location: Narayanganj, Bangladesh</p>
+
+                <p>
+                    LinkedIn:
+                    <a href="https://linkedin.com/in/mdatik96" target="_blank">
+                        linkedin.com/in/mdatik96
+                    </a>
+                </p>
+
+                <p>
+                    GitHub:
+                    <a href="https://github.com/MDATIK-3" target="_blank">
+                        github.com/MDATIK-3
+                    </a>
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© MD Atik. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
